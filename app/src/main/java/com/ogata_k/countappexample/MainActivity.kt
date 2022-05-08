@@ -7,6 +7,7 @@ import com.ogata_k.countappexample.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     // cf. https://developer.android.com/topic/libraries/view-binding?hl=ja
+    // 初期化方法がFragmentとActivityでは微妙に違うので注意
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
